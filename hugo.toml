@@ -1,5 +1,6 @@
 
 baseURL = "https://west-mountain.github.io/westblog/"
+canonifyURLs = true
 languageCode = "en-us"
 title = "一寸相思半生孤勇"
 theme = "blackburn"
