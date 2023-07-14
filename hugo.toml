@@ -1,7 +1,7 @@
 
 baseURL = "https://example.com/"
 languageCode = "en-us"
-title = "My Hugo Website"
+title = "一寸相思半生孤勇"
 theme = "blackburn"
 
 [menu]
