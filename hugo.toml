@@ -1,5 +1,6 @@
 
-baseURL = "https://west-mountain.github.io/westblog/"
+baseURL = "/westblog/"
+publishDir = "docs"
 canonifyURLs = true
 languageCode = "en-us"
 title = "一寸相思半生孤勇"
