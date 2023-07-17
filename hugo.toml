@@ -5,14 +5,80 @@ canonifyURLs = true
 languageCode = "en-us"
 title = "一寸相思半生孤勇"
 theme = "blackburn"
+author = "West-mountain"
+copyright = "&copy; 2023. All rights reserved."
+paginate = 10
+
+
+
+
+
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = ""
+  brand = "West-Mountain"
+  googleAnalytics = "Your Google Analytics tracking ID"
+  disqus = "Your Disqus shortname"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
+
+
 
 [menu]
+  # Shown in the side menu.
   [[menu.main]]
     name = "Home"
-    url = "/"
+    pre = "<i class='fa fa-home fa-fw'></i>"
     weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Python"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "python"
+    url = "/python/"
+
+  [[menu.main]]
+    name = "Data Visualization"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 3
+    identifier = "dtvsu"
+    url = "/dtvsu/"
+
+  [[menu.main]]
+    name = "Data Cleaning"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 4
+    identifier = "dtcln"
+    url = "/dtcln/"
+
+  [[menu.main]]
+    name = "似水年华"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 5
+    identifier = "ssnh"
+    url = "/ssnh/"
+
 
   [[menu.main]]
     name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 6
+    identifier = "about"
     url = "/about/"
-    weight = 2
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 7
+    url = "/contact/"
+
+
+
+

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>一寸相思半生孤勇</title>
-    <link>/westblog/</link>
-    <description>Recent content on 一寸相思半生孤勇</description>
+    <title>Python on 一寸相思半生孤勇</title>
+    <link>/westblog/python/</link>
+    <description>Recent content in Python on 一寸相思半生孤勇</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2023. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 16 Jul 2023 22:13:52 +0800</lastBuildDate><atom:link href="/westblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jul 2023 22:13:52 +0800</lastBuildDate><atom:link href="/westblog/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Doc3</title>
       <link>/westblog/python/doc3/</link>
@@ -45,36 +45,6 @@
 [{{ .Title }}]({{ .Permalink }}) {{ .Summary }}
 [阅读更多]({{ .Permalink }})
 {{ end }}</description>
-    </item>
-    
-    <item>
-      <title>My New Post2</title>
-      <link>/westblog/posts/python/my-new-post2/</link>
-      <pubDate>Sun, 16 Jul 2023 20:23:58 +0800</pubDate>
-      
-      <guid>/westblog/posts/python/my-new-post2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My New Post</title>
-      <link>/westblog/posts/python/my-new-post/</link>
-      <pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/westblog/posts/python/my-new-post/</guid>
-      <description>{{ range where .Site.Pages &amp;ldquo;Section&amp;rdquo; &amp;ldquo;posts/python&amp;rdquo; }}
-[{{ .Title }}]({{ .Permalink }}) {{ .Summary }}
-[阅读更多]({{ .Permalink }})
-{{ end }}</description>
-    </item>
-    
-    <item>
-      <title>My New Post1</title>
-      <link>/westblog/posts/python/my-new-post1/</link>
-      <pubDate>Sun, 16 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/westblog/posts/python/my-new-post1/</guid>
-      <description>sssssss</description>
     </item>
     
   </channel>

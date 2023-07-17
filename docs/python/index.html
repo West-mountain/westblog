@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Python Posts</title>
+</head>
+<body>
+    <h1>Python Posts</h1>
+    <ul>
+        
+        <li>
+            <h2><a href="/westblog/westblog/python/">Python</a></h2>
+            <p>这是 Python 文章的列表页面</p>
+        </li>
+        
+        <li>
+            <h2><a href="/westblog/westblog/python/doc3/">Doc3</a></h2>
+            <p></p>
+        </li>
+        
+        <li>
+            <h2><a href="/westblog/westblog/python/doc2/">Doc2</a></h2>
+            <p></p>
+        </li>
+        
+        <li>
+            <h2><a href="/westblog/westblog/python/doc1/">Doc1</a></h2>
+            <p></p>
+        </li>
+        
+        <li>
+            <h2><a href="/westblog/westblog/python/my-new-post1/">My New Post1</a></h2>
+            <p>{{ range where .Site.Pages &ldquo;Section&rdquo; &ldquo;python&rdquo; }}
+[{{ .Title }}]({{ .Permalink }}) {{ .Summary }}
+[阅读更多]({{ .Permalink }})
+{{ end }}</p>
+        </li>
+        
+    </ul>
+</body>
+</html>

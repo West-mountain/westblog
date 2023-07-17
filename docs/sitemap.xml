@@ -2,10 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/westblog/python/</loc>
+    <lastmod>2023-07-16T22:13:52+08:00</lastmod>
+  </url><url>
+    <loc>/westblog/</loc>
+    <lastmod>2023-07-16T22:13:52+08:00</lastmod>
+  </url><url>
+    <loc>/westblog/python/doc3/</loc>
+    <lastmod>2023-07-16T20:32:46+08:00</lastmod>
+  </url><url>
+    <loc>/westblog/python/doc2/</loc>
+    <lastmod>2023-07-16T20:32:41+08:00</lastmod>
+  </url><url>
+    <loc>/westblog/python/doc1/</loc>
+    <lastmod>2023-07-16T20:32:36+08:00</lastmod>
+  </url><url>
+    <loc>/westblog/python/my-new-post1/</loc>
+    <lastmod>2023-07-16T20:25:44+08:00</lastmod>
+  </url><url>
+    <loc>/westblog/posts/python/my-new-post2/</loc>
+    <lastmod>2023-07-16T20:23:58+08:00</lastmod>
+  </url><url>
+    <loc>/westblog/posts/</loc>
+    <lastmod>2023-07-16T20:23:58+08:00</lastmod>
+  </url><url>
+    <loc>/westblog/posts/python/my-new-post/</loc>
+    <lastmod>2023-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/westblog/posts/python/my-new-post1/</loc>
+    <lastmod>2023-07-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/westblog/categories/</loc>
   </url><url>
     <loc>/westblog/tags/</loc>
   </url><url>
-    <loc>/westblog/</loc>
+    <loc>/westblog/topics/</loc>
   </url>
 </urlset>
